@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Task 1: Time series plugin</title>
-        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="../global.css"/>
-        <link rel="stylesheet" href="style.css"/>
-    </head>
-    <body>
-        <div class="container">
-            <div class="plot"></div>
-            </div>
-        </div>
+<head>
+    <meta charset="utf-8">
+    <title>Timeseries histogram</title>
 
-        <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
-        <script src="script.js"></script>
-    </body>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../global.css"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="col-md-10">
+        <h2><b>Very</b> heavily inspired by Siqi's code.</h2>
+    </div>
+    <div class="col-md-19">
+        <div class="plot"></div>
+    </div>
+</div>
+
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="modules/timeSeries.js"></script>
+<script src="script.js"></script>
+</body>
 </html>
